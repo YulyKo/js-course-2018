@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,61 +9,64 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans: 400, 700, 900" rel="stylesheet">
 </head>
 <body>
-    <!-- __  - block__text          can be repited
-         _   - element
-         --  - modification
+    <!--    xxs = extra extra small
+             xs = extra small
+             sm = small
+             md = medium
+             lg = large
     -->
     <div class="header-container">
-        <header class="container__inner container_inner--menu">
-            <a href="index.html"><img class="logo" src="img/2-layers.png" /></a>
+        <header class="header">
+            <a href="index.html"><img class="logo" src="img/2-layers.png" alt="logo" /></a>
             <nav>
                 <ul class="header_menu">
-                    <li><a class="link link--header-menu" href="#">home</a></li>
-                    <li><a class="link link--header-menu" href="#">services</a></li>
-                    <li><a class="link link--header-menu" href="#">portfolio</a></li>
-                    <li><a class="link link--header-menu" href="#">about</a></li>
-                    <li><a class="link link--header-menu" href="#">team</a></li>
-                    <li><a class="link link--header-menu" href="#">contact</a></li>
+                    <li><a class="link header_menu__item" href="#">home</a></li>
+                    <li><a class="link header_menu__item" href="#">services</a></li>
+                    <li><a class="link header_menu__item" href="#">portfolio</a></li>
+                    <li><a class="link header_menu__item" href="#">about</a></li>
+                    <li><a class="link header_menu__item" href="#">team</a></li>
+                    <li><a class="link header_menu__item" href="#">contact</a></li>
                 </ul>
             </nav>
         </header>
         <div class="container_inner container_inner--text">
             <h1 class="title title--header title_line">Build the website of your dreams</h1>
-            <p class="text text--bigger">We are a digital agency that believes in building things that are  meaningful!</p>
+            <p class="text text--lg">We are a digital agency that believes in building things that are  meaningful!</p>
         </div>
     </div>
     <main class="page-content">
-        <section class="page-content page-content_core-servise">
+        <section class="core-service">
             <h2 class="title title--section title_line">core servise</h2>
-            <div class="content">
-                <div class="content_block__text">
+            <div class="core-service_block">
+                <!--подумй із розташуванням внутрішніх блоків-->
+                <div class="core-service_block__text">
                     <img class="image image--core" src="img/tools.png" alt="tools">
                     <h3 class="subtitle subtitle--core">beautiful designs</h3>
                     <p class="text text--core">Proin iaculis purus consequat sem digni ssim. Donec porttitora entum aenean rhoncus posuere odio in. Iaculis purus digni.</p>
                 </div>
-                <div class="content_block__text">
+                <div class="core-service_block__text">
                     <img class="image image--core" src="img/tools.png" alt="tools">
                     <h3 class="subtitle subtitle--core">wed development</h3>
                     <p class="text text--core">Proin iaculis purus consequat sem digni ssim. Donec porttitora entum aenean rhoncus posuere odio in. Iaculis purus digni.</p>
                 </div>
-                <div class="content_block__text">
+                <div class="core-service_block__text">
                     <img class="image image--core" src="img/tools.png" alt="tools">
                     <h3 class="subtitle subtitle--core">wed development</h3>
                     <p class="text text--core">Proin iaculis purus consequat sem digni ssim. Donec porttitora entum aenean rhoncus posuere odio in. Iaculis purus digni.</p>
                 </div>
             </div>
         </section>
-        <section class="page-content page-content_other-expertise">
+        <section class="other-expertise">
             <h2 class="title title--section">other expertise</h2>
-            <p class="text text--bigger">Proin iaculis purus consequat sem cure  digni ssim. Donec porttitora entum suscipit  aenean
+            <p class="text text--lg">Proin iaculis purus consequat sem cure  digni ssim. Donec porttitora entum suscipit  aenean
                 rhoncus posuere odio in tincidunt consequat sem cure  digni ssim.</p>
             <ul class="list list--horizontally">
                 <li class="block__text block__text--setup">
                     <h3 class="title">Custom setup</h3>
                     <p class="text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus.</p>
                 </li>
-                <li class="block__text block__text--comtrol">
-                    <h3 class="title">Custom setup</h3>
+                <li class="block__text block__text--control">
+                    <h3 class ="title">Custom setup</h3>
                     <p class="text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus.</p>
                 </li>
                 <li class="block__text block__text--star">
@@ -77,29 +80,29 @@
             </ul>
             <button class="btn btn--learn-more" role="button">LEARN MORE</button>
         </section>
-        <section class="page-content page-content_portfolio">
+        <section class="portfolio">
             <div class="portfolio-content">
                 <h2 class="title title--section">amazing portfolio</h2>
                 <p class="text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit.</p>
                 <p class="text">Iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt. Proin iaculis purus consequat.</p>
                 <ul class="list list--vertically">
-                    <li class="block__text block__text_security title--bigger">
+                    <li class="block__text block__text_security title--lg">
                         <h3 class="title title--block__text">Sail Away Your Worries</h3>
                         <p class="text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
                     </li>
-                    <li class="block__text block__text--star title--bigger">
+                    <li class="block__text block__text--star title--lg">
                         <h3 class="title title--block__text">Sail Away Your Worries</h3>
                         <p class="text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
                     </li>
-                    <li class="block__text block__text--diagrame title--bigger">
+                    <li class="block__text block__text--diagrame title--lg">
                         <h3 class="title title--block__text">Sail Away Your Worries</h3>
                         <p class="text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
                     </li>
                 </ul>
             </div>
-            <div class="image image--bacground"></div>
+            <div class="image image--background"></div>
         </section>
-        <section class="page-content page-content_gallery">
+        <section class="gallery">
             <a href="#" class="link link--gallery"><img class="image image--gallery" src="img/Image-1.png" alt="first work"></a>
             <a href="#" class="link link--gallery"><img class="image image--gallery" src="img/Image-2.png" alt="second work"></a>
             <a href="#" class="link link--gallery"><img class="image image--gallery" src="img/Image-3.png" alt="third work"></a>
@@ -107,7 +110,7 @@
             <a href="#" class="link link--gallery"><img class="image image--gallery" src="img/Image-5.png" alt="fifth work"></a>
             <a href="#" class="link link--gallery"><img class="image image--gallery" src="img/Image-6.png" alt="sixth work"></a>
         </section>
-        <section class="page-content page-content_about-us">
+        <section class="about-us">
             <h2 class="title title--section title_line">about us</h2>
             <div class="part-of-chain">
                 <div class="block__text block__text--left">
@@ -139,54 +142,60 @@
             </div>
             <a href="#" role="link" class="link link--about-us">OUR STORY CONTINUES</a>
         </section>
-        <section class="page-content page-content_comand">
+        <section class="command">
             <h2 class="title title--section title_line">awesome team</h2>
             <div class="content">
                 <div class="block__card card--first">
-                    <img src="img/fase.png" alt="Jimmy Letterman" class="image">
+                    <img src="img/face.png" alt="Jimmy Letterman" class="image">
                     <p class="text text--bold">Jimmy Letterman</p>
                     <p class="text">Marketer</p>
-                    <a class="link link--social-network" href="twitter.com">t</a>
-                    <a class="link link--social-network" href="facebook.com">f</a>
-                    <a class="link link--social-network" href="pinterest.com">p</a>
+                    <a class="link link--social-network" href="http://twitter.com">t</a>
+                    <a class="link link--social-network" href="http://facebook.com">f</a>
+                    <a class="link link--social-network" href="http://pinterest.com">p</a>
                 </div>
                 <div class="block__card">
-                    <img src="img/fase.png" alt="Rico Masi" class="image">
+                    <img src="img/face.png" alt="Rico Masi" class="image">
                     <p class="text text--bold">Rico Masi</p>
                     <p class="text">Coder</p>
-                    <a class="link link--social-network" href="twitter.com">t</a>
-                    <a class="link link--social-network" href="facebook.com">f</a>
-                    <a class="link link--social-network" href="plus.google.com">g+</a>
+                    <a class="link link--social-network" href="http://twitter.com">t</a>
+                    <a class="link link--social-network" href="http://facebook.com">f</a>
+                    <a class="link link--social-network" href="http://plus.google.com">g+</a>
                 </div>
                 <div class="block__card">
-                    <img src="img/fase.png" alt="Lisa Mason" class="image">
+                    <img src="img/face.png" alt="Lisa Mason" class="image">
                     <p class="text text--bold">Lisa Mason</p>
                     <p class="text">Graphic Designer</p>
-                    <a class="link link--social-network" href="facebook.com">f</a>
-                    <a class="link link--social-network" href="pinterest.com">p</a>
+                    <a class="link link--social-network" href="http://facebook.com">f</a>
+                    <a class="link link--social-network" href="http://pinterest.com">p</a>
                 </div>
             </div>
-            <p class="text text--bigger">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+            <p class="text text--lg">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
         </section>
     </main>
     <footer class="footer">
         <section class="feedback">
-            <div class="comtacnts">
+            <div class="contacts">
                 <h2 class="title title--section title--white"></h2>
                  <p class="text text--white"></p>
                  <ul class="contact__list">
                      <li class="item item--phone"><h3 class="title">(416)555-0000</h3></li>
-                     <li class="item item--twiter"><h3 class="title">@dream</h3></li>
+                     <li class="item item--twitter"><h3 class="title">@dream</h3></li>
                      <li class="item item--google-plus"><h3 class="title">plus.com/dreams</h3></li>
                      <li class="item item--e-mail"><h3 class="title">hello@dreams.com</h3></li>
-                     <li class="item item--fasebook"><h3 class="title">facebook.com/dreams</h3></li>
-                     <li class="item item--pintrest"><h3 class="title">pinterest.com/dreams</h3></li>
+                     <li class="item item--facebook"><h3 class="title">facebook.com/dreams</h3></li>
+                     <li class="item item--pinterest"><h3 class="title">pinterest.com/dreams</h3></li>
                  </ul>
             </div>
             <form action="#" class="form__send-message">
-                <input class="label label_smaller" type="text">
-                <input class="label label_smaller" type="text">
-                <input class="label label_bigger" type="text">
+                <label>
+                    <input class="label label_sm" type="text">
+                </label>
+                <label>
+                    <input class="label label_sm" type="text">
+                </label>
+                <label>
+                    <input class="label label_lg" type="text">
+                </label>
                 <input type="button" value="Send Message">
             </form>
         </section>
