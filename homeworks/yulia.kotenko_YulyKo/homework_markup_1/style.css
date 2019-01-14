@@ -155,17 +155,21 @@ body {
 }
 
 .text--header {
-  padding: 1% 34% 10%;
+  padding: 1% 25%;
   color: #CCC;
   margin: 0;
 }
 
 /*. . .*/
 
+.core-service {
+  margin-bottom: 5%;
+}
+
 .core-service_block {
   display: flex;
   justify-content: space-around;
-  margin: 10px 40px;
+  margin: 10px 60px;
   flex-wrap: wrap;
 }
 
@@ -191,6 +195,7 @@ body {
 
 .other-expertise {
   padding-left: 100px;
+  padding-bottom: 33px;
   background-color: #F7F7F7;
   background-image: url("img/image-of-other-experience.png");
   background-repeat: no-repeat;
@@ -203,7 +208,7 @@ body {
 
 .list--horizontally {
   flex-wrap: wrap;
-  width: 80%;
+  width: 70%;
 }
 
 .block__text--setup {
@@ -234,21 +239,25 @@ body {
 /*. . .*/
 
 .portfolio {
+  padding-left: 100px;
   height: 700px;
   display: flex;
   width: auto;
   justify-content: space-between;
-  margin: 10px;
 }
 
 .portfolio-content {
   flex-direction: column;
-  width: 50%;
-  margin: 100px;
+  width: 70%;
 }
 
 .list--vertically {
   flex-direction: column;
+  width: 100%;
+}
+
+.text--wide {
+  width: 35vw;
 }
 
 .portfolio-content:before {
@@ -275,22 +284,18 @@ body {
 /*. . .*/
 
 .gallery {
-  margin: 0;
-  width: auto;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
-  flex-direction: row;
-  justify-content: center;
 }
 
 .link--gallery {
-  margin: 0;
-  height: 100%;
+  display: block;
+  flex-basis: 33.3%;
 }
 
 .image--gallery {
-  max-height: 466px;
+  max-height: 100%;
+  width: 100%;
 }
 
 /*. . .*/
@@ -301,10 +306,23 @@ body {
 }
 
 .part-of-chain {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   display: flex;
   flex-shrink: 0;
+}
+
+.part-of-chain:after {
+  content: " ";
+  display: block;
+  height: 300px;
+  background: #35C2F8;
+  width: 1px;
+  margin: 25px auto 0;
+}
+
+.title--right {
+  text-align: right;
 }
 
 .block__text--left, .block__text--right {
@@ -478,7 +496,6 @@ body {
 
 .label {
   background-color: #FFF;
-  max-height: 50px;
   width: 80%;
   border-radius: 5px;
   padding: 11px 18px;
